@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/freshdirect/static/css/main.3b087bc1.chunk.css",
-    "main.js": "/freshdirect/static/js/main.5610949b.chunk.js",
-    "main.js.map": "/freshdirect/static/js/main.5610949b.chunk.js.map",
+    "main.js": "/freshdirect/static/js/main.c96810e9.chunk.js",
+    "main.js.map": "/freshdirect/static/js/main.c96810e9.chunk.js.map",
     "runtime-main.js": "/freshdirect/static/js/runtime-main.974e66ae.js",
     "runtime-main.js.map": "/freshdirect/static/js/runtime-main.974e66ae.js.map",
     "static/css/2.10431874.chunk.css": "/freshdirect/static/css/2.10431874.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.10431874.chunk.css",
     "static/js/2.c3c3156e.chunk.js",
     "static/css/main.3b087bc1.chunk.css",
-    "static/js/main.5610949b.chunk.js"
+    "static/js/main.c96810e9.chunk.js"
   ]
 }
