@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/freshdirect/static/css/main.3b087bc1.chunk.css",
-    "main.js": "/freshdirect/static/js/main.1dd651e7.chunk.js",
-    "main.js.map": "/freshdirect/static/js/main.1dd651e7.chunk.js.map",
+    "main.js": "/freshdirect/static/js/main.5610949b.chunk.js",
+    "main.js.map": "/freshdirect/static/js/main.5610949b.chunk.js.map",
     "runtime-main.js": "/freshdirect/static/js/runtime-main.974e66ae.js",
     "runtime-main.js.map": "/freshdirect/static/js/runtime-main.974e66ae.js.map",
     "static/css/2.10431874.chunk.css": "/freshdirect/static/css/2.10431874.chunk.css",
-    "static/js/2.6619d7ad.chunk.js": "/freshdirect/static/js/2.6619d7ad.chunk.js",
-    "static/js/2.6619d7ad.chunk.js.map": "/freshdirect/static/js/2.6619d7ad.chunk.js.map",
+    "static/js/2.c3c3156e.chunk.js": "/freshdirect/static/js/2.c3c3156e.chunk.js",
+    "static/js/2.c3c3156e.chunk.js.map": "/freshdirect/static/js/2.c3c3156e.chunk.js.map",
     "index.html": "/freshdirect/index.html",
     "static/css/2.10431874.chunk.css.map": "/freshdirect/static/css/2.10431874.chunk.css.map",
     "static/css/main.3b087bc1.chunk.css.map": "/freshdirect/static/css/main.3b087bc1.chunk.css.map",
-    "static/js/2.6619d7ad.chunk.js.LICENSE.txt": "/freshdirect/static/js/2.6619d7ad.chunk.js.LICENSE.txt",
+    "static/js/2.c3c3156e.chunk.js.LICENSE.txt": "/freshdirect/static/js/2.c3c3156e.chunk.js.LICENSE.txt",
     "static/media/gardenEggs.2c26686c.jpg": "/freshdirect/static/media/gardenEggs.2c26686c.jpg",
     "static/media/garlic.a5498815.jpg": "/freshdirect/static/media/garlic.a5498815.jpg",
     "static/media/ginger.251950af.jpg": "/freshdirect/static/media/ginger.251950af.jpg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.974e66ae.js",
     "static/css/2.10431874.chunk.css",
-    "static/js/2.6619d7ad.chunk.js",
+    "static/js/2.c3c3156e.chunk.js",
     "static/css/main.3b087bc1.chunk.css",
-    "static/js/main.1dd651e7.chunk.js"
+    "static/js/main.5610949b.chunk.js"
   ]
 }
