@@ -44,7 +44,7 @@ function App() {
         {mountSlider ? <Slider /> : ""}
         {mountSlider ? <CategoriesMenu /> : ""}
         {mountSlider ? <ShopByList /> : ""}
-        <Route path="/" exact component={FreshFoods} />
+        <Route path="/freshdirect" exact component={FreshFoods} />
         <Route path="/groceries" component={Groceries} />
         {/* <Route path="/freshfoods" component={FreshFoods} /> */}
         {/* <SayHiClosure data={data} /> */}
