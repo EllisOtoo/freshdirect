@@ -35,7 +35,7 @@ function MainNavigationMenu({ setMount }) {
 
         <li>About Us</li>
         <li>Blog</li>
-        <li>Why Buy from Us</li>
+        <li>Why Us?</li>
       </ul>
     </nav>
   );
