@@ -46,12 +46,14 @@ function ShopByList() {
     const newItems = [...items];
     newItems[index].quantity++;
     setItems(newItems);
+    calculateTotal();
   };
 
   const handleQuantityDecrease = (index) => {
     const newItems = [...items];
     newItems[index].quantity--;
     setItems(newItems);
+    calculateTotal();
   };
 
   const calculateTotal = () => {
@@ -136,6 +138,7 @@ function ShopByList() {
       </div>
       <div className="total" style={{ textAlign: "right", margin: "5px 0" }}>
         <Button
+          variant="success"
           onClick={() => addProduct([...cart, ...items])}
           class={"btn btn-success"}
         >
