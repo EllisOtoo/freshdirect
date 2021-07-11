@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCheckCircle,
@@ -8,7 +8,8 @@ import {
   faPlus,
 } from "@fortawesome/free-solid-svg-icons";
 import shopByList from "../styles/showByList.module.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import CartContext from "../contexts/cartContext";
 
 let shoppingList = {
   position: "absolute",
@@ -19,7 +20,7 @@ let shoppingList = {
   borderRadius: "10px",
   backgroundColor: "#006400",
   fontSize: "16pt",
-  zIndex: 100,
+  zIndex: 2000,
 };
 
 function ShopByList() {
@@ -30,8 +31,10 @@ function ShopByList() {
       isSelected: false,
     }, */
   ]);
-  const [inputValue, setInputValue] = useState("");
+  const [name, setInputValue] = useState("");
+  const [price, setPrice] = useState(0);
   const [totalItemCount, setTotalItemCount] = useState(0);
+  let { cart, addProduct } = useContext(CartContext);
 
   let toggleComplete = (index) => {
     let newItems = [...items];
@@ -78,13 +81,13 @@ function ShopByList() {
                   style={{ marginLeft: "10px" }}
                   className={shopByList.completed}
                 >
-                  {item.itemName}
+                  {item.name}
                 </span>
               </>
             ) : (
               <>
                 <FontAwesomeIcon icon={faCircle} />
-                <span style={{ marginLeft: "10px" }}>{item.itemName}</span>
+                <span style={{ marginLeft: "10px" }}>{item.name}</span>
               </>
             )}
           </div>
@@ -107,7 +110,7 @@ function ShopByList() {
         style={{ display: "flex", justifyContent: "space-between" }}
       >
         <input
-          value={inputValue}
+          value={name}
           onChange={(e) => setInputValue(e.target.value)}
           className="add-item-input"
           placeholder="Add an item..."
@@ -118,7 +121,12 @@ function ShopByList() {
           onClick={(e) => {
             setItems([
               ...items,
-              { itemName: inputValue, quantity: 1, isSelected: false },
+              {
+                name,
+                quantity: 1,
+                finalPr: 10,
+                isSelected: false,
+              },
             ]);
             calculateTotal();
             setInputValue("");
@@ -126,8 +134,14 @@ function ShopByList() {
           icon={faPlus}
         />
       </div>
-      <div className="total" style={{ textAlign: "right" }}>
-        Total:{totalItemCount}
+      <div className="total" style={{ textAlign: "right", margin: "5px 0" }}>
+        <Button
+          onClick={() => addProduct([...cart, ...items])}
+          class={"btn btn-success"}
+        >
+          Add to Cart
+        </Button>{" "}
+        <span>Total:{totalItemCount}</span>
       </div>
     </div>
   );

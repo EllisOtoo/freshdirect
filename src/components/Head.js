@@ -52,8 +52,8 @@ function Head({ cart }) {
         <Col lg={6} xs={12}>
           <MainNavigationMenu setMount={setMount} />
         </Col>
-        <Col lg={1} xs={8}></Col>
-        <Col lg={1} xs={4}>
+        <Col lg={1} xs={6}></Col>
+        <Col lg={1} xs={6}>
           <div style={{ display: "flex", alignItems: "center" }}>
             <FaCartPlus style={{ marginRight: "10px", fontSize: "16pt" }} />{" "}
             <p

@@ -41,10 +41,10 @@ function App() {
           exact
           render={(props) => <CheckOutCart {...props} cart={cart} />}
         />
-        {mountSlider ? <Slider /> : ""}
+        {mountSlider ? <Slider cart={cart} /> : ""}
+        {/* {mountSlider ? <ShopByList /> : ""} */}
         {mountSlider ? <CategoriesMenu /> : ""}
-        {mountSlider ? <ShopByList /> : ""}
-        <Route path="/freshdirect" exact component={FreshFoods} />
+        <Route path="/" exact component={FreshFoods} />
         <Route path="/groceries" component={Groceries} />
         {/* <Route path="/freshfoods" component={FreshFoods} /> */}
         {/* <SayHiClosure data={data} /> */}

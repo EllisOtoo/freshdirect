@@ -10,16 +10,12 @@ function FloatingCart({ cart, runTotal, setMount, showCart, setCart }) {
     <div
       ref={divEl}
       style={{
-        textAlign: "right",
         position: "absolute",
-        right: "-15px",
-        top: "33px",
-        zIndex: "200",
+        padding: "20px 10px",
+        zIndex: "3000",
         borderRadius: "10px",
-        width: "25vw",
-        padding: "10px 10px",
-        backgroundColor: "lightGreen",
-        // marginRight: "50px",
+        color: "white",
+        backgroundColor: "green",
       }}
     >
       <ul style={{ listStyle: "none", paddingLeft: "0" }}>
@@ -37,7 +33,7 @@ function FloatingCart({ cart, runTotal, setMount, showCart, setCart }) {
       <Link to="/checkout">
         <Button
           onClick={() => setMount(false)}
-          style={{ margin: "10px 0" }}
+          style={{ margin: "10px 10px", paddingRight: "20px" }}
           variant={"success"}
         >
           CheckOut
