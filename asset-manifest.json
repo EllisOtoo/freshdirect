@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/freshdirect/static/css/main.3b087bc1.chunk.css",
-    "main.js": "/freshdirect/static/js/main.b4895bf9.chunk.js",
-    "main.js.map": "/freshdirect/static/js/main.b4895bf9.chunk.js.map",
+    "main.js": "/freshdirect/static/js/main.3ed1830c.chunk.js",
+    "main.js.map": "/freshdirect/static/js/main.3ed1830c.chunk.js.map",
     "runtime-main.js": "/freshdirect/static/js/runtime-main.974e66ae.js",
     "runtime-main.js.map": "/freshdirect/static/js/runtime-main.974e66ae.js.map",
     "static/css/2.10431874.chunk.css": "/freshdirect/static/css/2.10431874.chunk.css",
@@ -21,6 +21,7 @@
     "static/media/jollof.3e4bf21a.jpeg": "/freshdirect/static/media/jollof.3e4bf21a.jpeg",
     "static/media/keysoap.9548ab83.jpeg": "/freshdirect/static/media/keysoap.9548ab83.jpeg",
     "static/media/kontomire-1-bundle.jpg.51ed3bed.png": "/freshdirect/static/media/kontomire-1-bundle.jpg.51ed3bed.png",
+    "static/media/miloTin.a13146c0.jpeg": "/freshdirect/static/media/miloTin.a13146c0.jpeg",
     "static/media/pancake.a74ba851.jpeg": "/freshdirect/static/media/pancake.a74ba851.jpeg",
     "static/media/pepper.ab149b12.jpg": "/freshdirect/static/media/pepper.ab149b12.jpg",
     "static/media/pineappleJuice.04028909.jpeg": "/freshdirect/static/media/pineappleJuice.04028909.jpeg",
@@ -28,6 +29,7 @@
     "static/media/slideOne.b4c21c4c.jpg": "/freshdirect/static/media/slideOne.b4c21c4c.jpg",
     "static/media/slideTwo.14a9259a.jpg": "/freshdirect/static/media/slideTwo.14a9259a.jpg",
     "static/media/smoothieRecipe01.159bac3c.jpg": "/freshdirect/static/media/smoothieRecipe01.159bac3c.jpg",
+    "static/media/sugar.df97a83f.jpeg": "/freshdirect/static/media/sugar.df97a83f.jpeg",
     "static/media/tomato.b5cde400.jpg": "/freshdirect/static/media/tomato.b5cde400.jpg",
     "static/media/tubers.1b56c9ad.jpg": "/freshdirect/static/media/tubers.1b56c9ad.jpg"
   },
@@ -36,6 +38,6 @@
     "static/css/2.10431874.chunk.css",
     "static/js/2.53c26b49.chunk.js",
     "static/css/main.3b087bc1.chunk.css",
-    "static/js/main.b4895bf9.chunk.js"
+    "static/js/main.3ed1830c.chunk.js"
   ]
 }
