@@ -50,7 +50,7 @@ function App() {
         <Route exact path="/groceries" component={Groceries} />
         <Route exact path="/freshfoods" component={FreshFoods} />
         <Route exact path="/recipes" component={Recipies} />
-        <Route exact path="/recipes" component={Recipies} />
+        <Route exact path="/freshdirect" component={FreshFoods} />
         {/* <SayHiClosure data={data} /> */}
         {/* <SelectOptionsWidget options={["One", "Two", "Three"]} /> */}
         {/* <SmalllerWidget /> */}
