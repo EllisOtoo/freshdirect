@@ -46,13 +46,14 @@ function App() {
         {mountSlider ? <Slider cart={cart} /> : ""}
         {/* {mountSlider ? <ShopByList /> : ""} */}
         {mountSlider ? <CategoriesMenu /> : ""}
-        <Route path="/" exact component={FreshFoods} />
-        <Route path="/groceries" component={Groceries} />
-        <Route path="/freshfoods" component={FreshFoods} />
-        <Route path="/recipes" component={Recipies} />
+        <Route exact path="/" exact component={FreshFoods} />
+        <Route exact path="/groceries" component={Groceries} />
+        <Route exact path="/freshfoods" component={FreshFoods} />
+        <Route exact path="/recipes" component={Recipies} />
+        <Route exact path="/recipes" component={Recipies} />
         {/* <SayHiClosure data={data} /> */}
         {/* <SelectOptionsWidget options={["One", "Two", "Three"]} /> */}
-        <SmalllerWidget />
+        {/* <SmalllerWidget /> */}
         <Footer />
       </Router>
     </CartContext.Provider>
