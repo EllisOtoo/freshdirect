@@ -23,18 +23,17 @@ function MainNavigationMenu({ setMount }) {
       <ul
         style={{
           display: "flex",
-          justifyContent: "space-between",
+          justifyContent: "space-around",
           listStyle: "none",
           // width: "30vw",
-          fontSize: "14pt",
+          fontSize: "16pt",
         }}
       >
         <Link to={"/contactUs"} onClick={() => setMount(false)}>
           <li>Contact Us</li>
         </Link>
-
-        <li>About Us</li>
-        <li>Blog</li>
+        <li>About</li>
+        {/* <li style={{ width: "25vw" }}>Blog</li> */}
         <li>Why Us?</li>
       </ul>
     </nav>

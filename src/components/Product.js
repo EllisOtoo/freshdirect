@@ -27,9 +27,9 @@ function Product({ name, description, featureList, imgsrc, kiloPrice }) {
           </span>
         </Card.Title>
         <Card.Text>
-          <ul style={{ listStyle: "none" }}>
+          <ul>
             {featureList.map((feature, index) => (
-              <li key={index}>feature</li>
+              <li key={index}>{feature}</li>
             ))}
           </ul>
           <p>{description}</p>

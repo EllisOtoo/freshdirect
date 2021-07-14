@@ -15,7 +15,8 @@ let shoppingList = {
   position: "absolute",
   top: "40%",
   color: "white",
-  left: "15%",
+  left: "25%",
+  right: "25%",
   padding: "20px 20px",
   borderRadius: "10px",
   backgroundColor: "#006400",
@@ -116,7 +117,7 @@ function ShopByList() {
           onChange={(e) => setInputValue(e.target.value)}
           className="add-item-input"
           placeholder="Add an item..."
-          style={{ marginRight: "10px", padding: "0px 10px" }}
+          style={{ marginRight: "10px", padding: "0px 10px", width: "90%" }}
         />
         <FontAwesomeIcon
           style={{ position: "relative", top: "5px" }}

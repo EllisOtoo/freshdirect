@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import logo from "../img/sampleLogo.jpg";
+import logo from "../img/SnappyCarte.jpg";
 import styled from "styled-components";
 import { FaCartPlus } from "react-icons/fa";
 import { CartContext } from "../contexts/cartContext";

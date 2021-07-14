@@ -19,6 +19,8 @@ import MainNavigationMenu from "./subcomponents/MainNavigationMenu";
 import SayHiClosure from "./components/SayHiClosure";
 import ContactUs from "./pages/ContactUs";
 import SelectOptionsWidget from "./components/widgets/SelectOptionsWidget";
+import SmalllerWidget from "./components/widgets/SmalllerWidget";
+import Recipies from "./catalogues/Recipies";
 
 function App() {
   let [cart, addProduct] = useState([]);
@@ -46,9 +48,11 @@ function App() {
         {mountSlider ? <CategoriesMenu /> : ""}
         <Route path="/" exact component={FreshFoods} />
         <Route path="/groceries" component={Groceries} />
-        {/* <Route path="/freshfoods" component={FreshFoods} /> */}
+        <Route path="/freshfoods" component={FreshFoods} />
+        <Route path="/recipes" component={Recipies} />
         {/* <SayHiClosure data={data} /> */}
         {/* <SelectOptionsWidget options={["One", "Two", "Three"]} /> */}
+        <SmalllerWidget />
         <Footer />
       </Router>
     </CartContext.Provider>
