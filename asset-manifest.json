@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/snappycarte/static/css/main.c606c4eb.chunk.css",
-    "main.js": "/snappycarte/static/js/main.a6cea81e.chunk.js",
-    "main.js.map": "/snappycarte/static/js/main.a6cea81e.chunk.js.map",
+    "main.js": "/snappycarte/static/js/main.c73d7f85.chunk.js",
+    "main.js.map": "/snappycarte/static/js/main.c73d7f85.chunk.js.map",
     "runtime-main.js": "/snappycarte/static/js/runtime-main.df24e94f.js",
     "runtime-main.js.map": "/snappycarte/static/js/runtime-main.df24e94f.js.map",
     "static/css/2.10431874.chunk.css": "/snappycarte/static/css/2.10431874.chunk.css",
@@ -38,6 +38,6 @@
     "static/css/2.10431874.chunk.css",
     "static/js/2.8a810010.chunk.js",
     "static/css/main.c606c4eb.chunk.css",
-    "static/js/main.a6cea81e.chunk.js"
+    "static/js/main.c73d7f85.chunk.js"
   ]
 }
