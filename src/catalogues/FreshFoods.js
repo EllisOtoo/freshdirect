@@ -15,6 +15,7 @@ function FreshFoods() {
       style={{
         display: "flex",
         flexWrap: "wrap",
+        position: "relative",
         justifyContent: "space-around",
         marginBottom: "70px",
       }}
@@ -25,6 +26,7 @@ function FreshFoods() {
         featureList={["Feature One", "Feature Two"]}
         kiloPrice={8}
         imgsrc={tomato}
+        seasonLow={true}
       />
       <Product
         name={`Nadia's Fresh Onions`}
@@ -32,6 +34,7 @@ function FreshFoods() {
         featureList={["Feature One", "Feature Two"]}
         kiloPrice={3}
         imgsrc={onion}
+        promo={20}
       />
       <Product
         name={`Felicity's Chilli Pepper`}
@@ -44,6 +47,7 @@ function FreshFoods() {
         name={`Johnsons's Kontomire`}
         description={"Sample Description"}
         featureList={["Feature One", "Feature Two"]}
+        seasonLow={true}
         kiloPrice={3}
         imgsrc={kontonmire}
       />
@@ -53,6 +57,7 @@ function FreshFoods() {
         featureList={["Feature One", "Feature Two"]}
         kiloPrice={2}
         imgsrc={ginger}
+        promo={10}
       />
       <Product
         name={`Bella's Garden Eggs`}

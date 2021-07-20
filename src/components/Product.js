@@ -3,17 +3,35 @@ import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { CartContext } from "../contexts/cartContext";
 // import { Button } from "react-bootstrap";
+import productStyle from "../styles/product.module.css";
 
-function Product({ name, description, featureList, imgsrc, kiloPrice }) {
+function Product({
+  name,
+  description,
+  featureList,
+  imgsrc,
+  kiloPrice,
+  seasonLow = false,
+  promo = 0,
+}) {
   let [Qty, setQty] = useState(0);
   let finalPrice = (perKilo) => perKilo * Qty;
-
   let { cart, addProduct } = useContext(CartContext);
 
   return (
     <Card style={{ width: "360px", marginBottom: "10px" }}>
       <Card.Img variant="top" src={imgsrc} />
       <Card.Body>
+        {seasonLow ? (
+          <div className={productStyle.outOfSeason}>Out Of Season Stock</div>
+        ) : (
+          ""
+        )}
+        {promo ? (
+          <span className={productStyle.discount}> {`${promo}% Off`}</span>
+        ) : (
+          ""
+        )}
         <Card.Title>
           {name}{" "}
           <span
@@ -36,6 +54,7 @@ function Product({ name, description, featureList, imgsrc, kiloPrice }) {
         </Card.Text>
         <Button
           variant={"success"}
+          style={{ margin: "0px 10px" }}
           onClick={() =>
             addProduct([
               ...cart,
