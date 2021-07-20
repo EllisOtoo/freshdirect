@@ -7,12 +7,12 @@ let Nav = styled.nav`
   // position: relative;
   // bottom: 10px;
 `;
-let Li = styled.li`
-  // margin-right: 10px;
-  // //   color: #ff8c00;
-  // color: #000000;
-  // font-size: 13pt;
-`;
+// let Li = styled.li`
+//   // margin-right: 10px;
+//   // //   color: #ff8c00;
+//   // color: #000000;
+//   // font-size: 13pt;
+// `;
 
 let Ul = styled.ul`
   // margin-left: 20px;
@@ -23,17 +23,16 @@ function MainNavigationMenu({ setMount }) {
       <ul
         style={{
           display: "flex",
-          justifyContent: "space-around",
+          justifyContent: "space-between",
           listStyle: "none",
           // width: "30vw",
           fontSize: "16pt",
         }}
       >
         <Link to={"/contactUs"} onClick={() => setMount(false)}>
-          <li>Contact Us</li>
+          <li style={{ width: "115px" }}>Contact Us</li>
         </Link>
         <li>About</li>
-        {/* <li style={{ width: "25vw" }}>Blog</li> */}
         <li>Why Us?</li>
       </ul>
     </nav>

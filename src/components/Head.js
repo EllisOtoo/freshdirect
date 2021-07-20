@@ -19,7 +19,7 @@ let SiteNav = styled.nav`
   height: 90px;
   display: flex;
   justify-content: space-between;
-  padding: 0px 50px;
+  padding: 20px 50px;
   align-items: center;
 `;
 
@@ -41,7 +41,7 @@ function Head({ cart }) {
     return "";
   }
   return (
-    <Container>
+    <Container style={{ marginTop: "15px" }}>
       <Row className="align-items-center">
         <Col lg={4} xs={12}>
           <Link onClick={() => setMount(true)} to={"/"}>
