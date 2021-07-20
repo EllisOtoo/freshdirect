@@ -21,6 +21,7 @@ import ContactUs from "./pages/ContactUs";
 import SelectOptionsWidget from "./components/widgets/SelectOptionsWidget";
 import SmalllerWidget from "./components/widgets/SmalllerWidget";
 import Recipies from "./catalogues/Recipies";
+import ChatBubble from "./components/widgets/ChatBubble";
 
 function App() {
   let [cart, addProduct] = useState([]);
@@ -54,6 +55,7 @@ function App() {
         {/* <SayHiClosure data={data} /> */}
         {/* <SelectOptionsWidget options={["One", "Two", "Three"]} /> */}
         {/* <SmalllerWidget /> */}
+        {/* <ChatBubble /> */}
         <Footer />
       </Router>
     </CartContext.Provider>

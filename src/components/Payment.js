@@ -11,7 +11,6 @@ function Payment() {
 
   let placeorder = () => {
     setTimeout(() => setOrder(!orderSucess), 2000);
-    setTimeout(() => setOrder(!orderSucess), 5000);
   };
 
   return (
@@ -23,8 +22,8 @@ function Payment() {
         style={{
           display: "flex",
           flexDirection: "column",
-          justifyContent: "space-around",
-          height: "120px",
+          justifyContent: "space-between",
+          height: "180px",
         }}
       >
         <InputGroup type="text" placeholder={"Your Contact Number"} />
@@ -39,6 +38,8 @@ function Payment() {
             color: "white",
             textAlign: "center",
             fontSize: "16pt",
+            margin: "10px 0px",
+            borderRadius: "20px",
           }}
         >
           Order Succesful
@@ -46,7 +47,9 @@ function Payment() {
       ) : (
         ""
       )}
-      <button onClick={placeorder}>Place Order</button>
+      <button style={{ margin: "10px 0px" }} onClick={placeorder}>
+        Place Order
+      </button>
     </div>
   );
 }
