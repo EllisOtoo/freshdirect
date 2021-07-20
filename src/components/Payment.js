@@ -30,6 +30,7 @@ function Payment() {
         <InputGroup type="text" placeholder={"Your Contact Number"} />
         <Input type="text" placeholder={"Hostel Name"} />
         <Input type="text" placeholder={"Location and Address "} />
+        <Input type="text" placeholder={"Phone Number"} />
       </div>
       {orderSucess ? (
         <div
