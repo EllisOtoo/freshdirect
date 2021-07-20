@@ -8,7 +8,7 @@ function Cart() {
   };
 
   useEffect(() => {
-    console.log(cart);
+    console.log("hello", cart);
   }, [cart]);
 
   return {
@@ -16,9 +16,5 @@ function Cart() {
     addProduct,
   };
 }
-
-/* return () => {
-    cleanup
-} */
 
 export default Cart;
